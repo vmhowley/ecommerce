@@ -14,8 +14,7 @@ function App() {
         <Route path="/contact" element={<div>Contact</div>} />
         <Route path="/login" element={<div>Login</div>} />
         <Route path="/products" element={<div>Products</div>} />
-        <Route path="/products/:id" element={<div>Products</div>}
-        />
+        <Route path="/products/:id" element={<div>Products</div>}/>
         <Route path="/cart" element={<div>Cart</div>} />
         <Route path="/checkout" element={<div>Checkout</div>} />
         <Route path="*" element={<div>Error 404</div>} />
